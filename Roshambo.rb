@@ -89,4 +89,5 @@ while play_again == "Y"
       puts "Would you like to play again Y/N"
       play_again = gets.chomp.upcase
     end until multi_play.include?(play_again)
-    exit
+exit
+end
